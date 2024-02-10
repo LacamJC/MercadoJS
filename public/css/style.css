@@ -1,0 +1,110 @@
+*
+{
+    margin: 0px ;
+    padding: 0px ;
+}
+
+:root
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    --font-size-1: 1rem;
+    --font-size-2: 1.5rem;
+    --font-size-3: 3rem;
+}
+
+body
+{
+    background-color: whitesmoke;
+}
+
+.__row
+{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+}
+
+.produto
+{
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.produto__top
+{
+    /* background-color: blue; */
+    height: 30%;
+}
+
+.produto__top img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.produto__body
+{
+    /* background-color: yellow; */
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nomeProduto
+{
+    /* background-color:red; */
+    font-size: var(--font-size-1);
+}
+
+.precoProduto
+{
+    /* background-color: pink; */
+    font-size: var(--font-size-1);
+    font-weight: bold;
+}
+
+.produto__bottom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: green; */
+    height: 50%;
+    /* padding: 10px; */
+}
+
+.descricao
+{
+    font-size: var(--font-size-1);
+    text-indent: 1rem;
+    margin: auto;
+    width: 320px;
+}
+
+
+
+.btn__compra
+{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: var(--font-size-1);
+}
